@@ -120,7 +120,7 @@ const Booking = () => {
           <br />
           <label>
             Date:
-            <input type="date" value={date} onChange={handleDateChange} />
+            <input required type="date" value={date} onChange={handleDateChange} />
           </label>
           <br />
           <label required>
